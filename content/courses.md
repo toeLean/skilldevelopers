@@ -1,7 +1,7 @@
 ---
 title: ""
-layout: "courses.html"
+layout: "courses"
 description: ""
 aliases:
-  - /some/url.htm
+  - /some/
 ---
