@@ -4,7 +4,8 @@
 name = "Skilldev"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+description "en-us"
+language = ""
 homepage = "http://example.com/"
 tags = []
 features = []

@@ -1,7 +1,6 @@
 ---
-title: ""
-layout: "contact-us.html"
+title: "Contact Us"
+layout: "contact-us"
 description: ""
-aliases:
-  - /some/url.htm
+url: "/contact-us/"
 ---

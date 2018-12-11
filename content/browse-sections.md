@@ -1,7 +1,5 @@
 ---
 title: ""
-layout: "browse-sections.html"
+layout: "browse-sections"
 description: ""
-aliases:
-  - /some/url.htm
 ---
