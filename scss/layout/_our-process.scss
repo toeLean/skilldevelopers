@@ -1,0 +1,55 @@
+// OUR PROCESS
+.our-process {
+    background: #006699;
+    padding: 65px 0 90px 0;
+    text-align: center;
+    
+    h4 {
+        margin-bottom: 36px;
+        text-align: left;
+    }
+    
+    .stages-container {
+        display: inline-block;
+        width: 100%;
+        max-width: 940px;
+        
+        @media (max-width: 991px) {
+            width: auto;
+        }
+    }
+    
+    ul {
+        
+        li {
+            color: #fff;
+            font-size: 26px;
+            font-weight: 300;
+            margin-bottom: 35px;
+            text-align: left;
+            
+            @media (max-width: 991px) {
+                font-size: 24px;
+            }
+            
+            @media (max-width: 550px) {
+                font-size: 22px;
+            }
+            
+            .icon-container {
+                margin-right: 25px;
+                
+                @media (max-width: 991px) {
+                    margin-right: 16px;
+                }
+                
+                img {
+                    
+                    @media (max-width: 991px) {
+                        max-width: 45px;
+                    }
+                }
+            }
+        }
+    }
+}

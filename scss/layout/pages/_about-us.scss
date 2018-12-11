@@ -1,0 +1,40 @@
+// ABOUT US
+body.about-us {
+    
+    .hero {
+        background-image: url(../img/about-us-hero-bg.jpg);
+        padding: 140px 0;
+        
+        h4 {
+            text-align: left !important;
+            background: transparent;
+            display: block;
+            height: auto;
+            font-size: 50px !important;
+        }
+    }
+    
+    .intro {
+        background: #333;
+    }
+    
+    .ethic,
+    .about-section {
+        padding: 55px 0 120px 0;
+        background: #fff;
+        
+        p {
+            font-size: 30px;
+            color: rgb(102,102,102);
+            line-height: 1.2em;
+            
+            @media (max-width: 1550px) {
+                font-size: 25px;
+            }
+        }
+    }
+    
+    .ethic {
+        padding: 0 0 120px 0;
+    }
+}

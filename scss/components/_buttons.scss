@@ -1,0 +1,61 @@
+// BUTTONS
+.button {
+    min-height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: .1em;
+    line-height: 1em;
+    
+    &.grey-bg {
+        background: rgb(102,102,102);
+        border: 2px solid rgb(102,102,102);
+        color: #fff;
+        
+        &:hover {
+            color: rgb(102,102,102);
+            background: transparent;
+        }
+    }
+    
+    &.green-bg {
+        background: #00a34e;
+        border: 2px solid #00a34e;
+        color: #fff;
+        
+        &:hover {
+            background: transparent;
+            color: #00a34e;
+        }
+    }
+    
+    &.rounded-borders {
+        border-radius: 10px;
+    }
+    
+    &.button-wide {
+        width: 100%;
+    }
+    
+    &.icon-right {
+        
+        span {
+            text-align: center;
+        }
+        
+        img {
+            margin-left: 20px;
+        }
+    }
+    
+    &.inline-flex {
+        display: inline-flex;
+        width: auto;
+    }
+}

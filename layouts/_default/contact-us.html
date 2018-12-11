@@ -1,0 +1,100 @@
+{{ define "main" }}
+        
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="light">Contact SkillDevelopers</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form>
+                            <div class="cols-2 cols-first align-start space-between">
+                                <div class="col1 form-col">
+                                    <div class="cols-2 fields-col">
+                                        <div class="col1 field-description">
+                                            <p class="semibold">First Name</p>
+                                        </div>
+                                        
+                                        <div class=" col1 input-wrapper">
+                                            <input type="text" name="first_name" class="rounded light-border" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cols-2 fields-col">
+                                        <div class="col1 field-description">
+                                            <p class="semibold">Last Name</p>
+                                        </div>
+                                        
+                                        <div class="col1 input-wrapper">
+                                            <input type="text" name="last_name" class="rounded light-border" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cols-2 fields-col">
+                                        <div class="col1 field-description">
+                                            <p class="semibold">Email</p>
+                                        </div>
+                                        
+                                        <div class="col1 input-wrapper">
+                                            <input type="email" name="email" class="rounded light-border" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cols-2 fields-col">
+                                        <div class="col1 field-description">
+                                            <p class="semibold">Phone</p>
+                                        </div>
+                                        
+                                        <div class="col1 input-wrapper">
+                                            <input type="tel" name="phone" class="rounded light-border" />
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col1 address-col">
+                                    <div class="address-container">
+                                        <p>
+                                            <span class="semibold">Skill Developers LLC</span><br>
+                                            <span class="light">Skillman, New Jersey, United States</span>
+                                        </p>
+                                        
+                                        <p>
+                                            <a href="tel:6094556896">(609) 455-6896</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="cols-2 align-start">
+                                <div class="col1 field-description">
+                                    <p class="semibold">Comments <br>/ Questions</p>
+                                </div>
+                                
+                                <div class="col1 input-wrapper full-width">
+                                    <textarea name="message" rows="10" cols="30" class="rounded light-border"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="cols-2 align-start">
+                                <div class="col1 field-description">
+                                    &nbsp;
+                                </div>
+                                
+                                <div class="col1 input-wrapper submit-wrapper">
+                                    <input type="submit" value="Submit" class="button green-bg rounded-borders">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        {{ end }}

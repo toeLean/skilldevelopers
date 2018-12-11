@@ -1,0 +1,54 @@
+// GRID
+* {
+  box-sizing: border-box;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.container {
+  
+  @media (min-width: 1200px) {
+    max-width: 1140px !important;
+    width: 1140px !important;
+  }
+}
+
+.two-cols {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+  
+  .col-1 {
+    width: 48%;
+    
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+}
+
+.cols-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  
+  &.align-start {
+    align-items: flex-start;
+  }
+  
+  &.space-between {
+    justify-content: space-between;
+  }
+}
+
+.full-width {
+  width: 100%;
+}

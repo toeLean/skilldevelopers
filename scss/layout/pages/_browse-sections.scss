@@ -1,0 +1,45 @@
+// BROWSE-SECTIONS
+body.browse-sections {
+    
+    .courses-list {
+        .browse-courses {
+            margin-bottom: 55px !important;
+        }
+    }
+    
+    .courses-list1 {
+        
+        .course-outer {
+            font-size: 30px;
+            border-bottom: 1px solid #2d3238;
+            margin-bottom: 25px;
+            padding-bottom: 8px;
+            
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            
+            .course-title {
+                margin-right: 55px;
+                line-height: 1.2em;
+                
+                @media (max-width: 991px) {
+                    display: block;
+                }
+            }
+            
+            .prerequisetes {
+                margin-right: 55px;
+                
+                @media (max-width: 991px) {
+                    display: block;
+                    margin-bottom: 16px;
+                }
+            }
+            
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

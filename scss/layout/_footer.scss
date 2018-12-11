@@ -1,0 +1,137 @@
+// FOOTER
+footer {
+    background: rgb(102,102,102);
+    padding-top: 70px;
+    
+    .logo-container {
+        margin-bottom: 55px;
+        
+        img {
+            max-width: 100%;
+        }
+    }
+    
+    .description {
+        padding-right: 55px;
+        padding-bottom: 50px;
+        
+        @media (max-width: 1199px) {
+            padding-right: 0;
+        }
+    }
+    
+    h4 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    
+    .no-bullets {
+        
+        a {
+            font-size: 18px;
+            color: #fff !important;
+            line-height: 1.2em;
+            text-decoration: underline;
+            font-weight: 400;
+            
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    
+    .links1 {
+        margin-bottom: 30px;
+    }
+    
+    .links2 {
+        padding-bottom: 50px;
+    }
+    
+    .icons-container {
+        
+        .icons-row {
+            margin-bottom: 10px;
+            
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .brand-icon {
+        display: inline-flex;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background: #3fa1da;
+        color: #fff;
+        text-decoration: none !important;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        transition: all .5s ease-in-out;
+        margin-right: 10px;
+        
+        &:last-of-type {
+            margin-right: 0;
+        }
+        
+        &:hover {
+            background: #fff;
+            color: #3fa1da;
+        }
+    }
+    
+    .phone-container {
+        margin-top: 50px;
+        
+        a {
+            font-size: 18px;
+            color: #fff !important;
+            font-weight: 300;
+        }
+    }
+    
+    .copyright-container {
+        padding: 35px 0;
+        text-align: center;
+        margin-top: 35px;
+        
+        p {
+            margin-bottom: 0;
+        }
+    }
+    
+    .order-small-1 {
+        
+        @media (max-width: 767px) {
+            order: 1;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            
+            .icons-container {
+                order: 2;
+            }
+            
+            .phone-container {
+                order: 1;
+                margin-top: 0;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    .order-small-2 {
+        
+        @media (max-width: 767px) {
+            order: 2;
+        }
+    }
+}

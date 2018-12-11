@@ -1,0 +1,4 @@
+baseURL = "http://skilldevelopers.com/"
+languageCode = "en-us"
+title = "SkillDevelopers.com"
+theme = "skilldev"

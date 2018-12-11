@@ -1,0 +1,45 @@
+// HERO
+.hero {
+    background: url(../img/hero-bg.jpg) no-repeat center center scroll;
+    background-size: cover;
+    padding: 250px 0 300px 0;
+    
+    @media (max-width: 991px) {
+        margin-top: 80px;
+        padding: 100px 0;
+    }
+    
+    @media (max-width: 768px) {
+        display: none;
+    }
+    
+    h4 {
+        font-size: 36px;
+        letter-spacing: -0.01em;
+        color: #fff;
+        min-height: 105px;
+        background: rgba(0,0,0,.54);
+        text-align: center;
+        line-height: 1.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0;
+        
+        @media (max-width: 1450px) {
+            font-size: 36px;
+        }
+        
+        @media (max-width: 1250px) {
+            font-size: 34px;
+        }
+        
+        @media (max-width: 1150px) {
+            font-size: 32px;
+        }
+        
+        @media (max-width: 991px) {
+            font-size: 30px;
+        }
+    }
+}

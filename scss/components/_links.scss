@@ -1,0 +1,26 @@
+// LINKS
+a {
+    color: #4189b2;
+    
+    &:hover {
+        color: #4189b2;
+    }
+    
+    &.grey {
+        color: rgb(102,102,102);
+        
+        &:hover {
+            color: rgb(102,102,102);
+        }
+    }
+    
+    &.phone-link {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            margin-right: 12px;
+        }
+    }
+}
