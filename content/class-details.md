@@ -1,6 +1,6 @@
 ---
 title: ""
-layout: "class-details.html"
+layout: "class-details"
 description: ""
 aliases:
   - /some/url.htm
